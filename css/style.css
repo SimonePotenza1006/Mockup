@@ -1,0 +1,148 @@
+/* IMPOSTAZIONI GENERALI */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;1,500&display=swap');
+
+body {
+    width: 500px;
+    background-image: url(img/sfondo.png);
+    background-repeat: repeat-y;
+    margin-right: 0;
+    border: 0;
+}
+
+strong {
+    color: rgb(247, 0, 185);
+}
+
+
+/* HEADER */
+#header {
+    width: 90%;
+    height: 350px;
+    background-color: #4078a5;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#logo {
+    height: 80px;
+    padding-top: 45px;
+}
+
+h1{
+    color: white;
+    padding-top: 35px;
+    font-size: larger;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    padding-top: 30px;
+}
+
+nav > h3 {
+    color: white;
+    padding-bottom: 15px;
+    font-size: larger;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+/* MAIN */
+
+main {
+    width: 90%;
+    height: auto;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    
+}
+
+#editor {
+    color: grey;
+    padding-top: 20px;
+    padding-left: 25px;
+    margin-right: 15px;
+}
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+article > p {
+    padding-left: 15px;
+    padding-top: 25px;
+    font-size: 19px;
+    line-height: 1.3;
+    font-family: 'Poppins', sans-serif;  
+
+}
+
+article > h2 {
+    font-size: xx-large;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 20px;
+    line-height: 1.3;
+    font-family: 'Poppins', sans-serif;
+}
+
+article > ul {
+    margin-left: 30px;
+    line-height: 1.4;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 20px;
+    font-size: 19px;
+}
+
+
+article > ol {
+    margin-left: 30px;
+    line-height: 1.4;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 20px;
+    font-size: 19px;
+}
+
+iframe {
+    padding-left: 60px;
+    padding-top: 20px;
+}
+/* TABELLE */
+#div-table{
+    padding-top: 25px;
+    padding-left: 55px;
+}
+table {
+    margin-bottom: 2em;
+}
+caption {
+    font-weight: bold;
+    font-style: italic;
+}
+thead tr {
+    background-color: #3f6bca;
+    color: #ffffff;
+}
+th, td {
+    padding: 12px 15px;
+    vertical-align: bottom;
+    text-align: center;
+}
+tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+tbody tr:last-of-type {
+    border-bottom: 2px solid #3f6bca;
+}
+
+/* FORM */
+
+/* ELEMENTI NELL' ASIDE */
+
+/* FOOTER */
